@@ -58,8 +58,10 @@ nav{
 
 .nav_links a:hover,
 .search a:hover {
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+ 
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
   border-radius: 5px;
   transform: scale(1.3,1.3);
   padding: 10px;

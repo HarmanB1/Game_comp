@@ -1,7 +1,7 @@
 export const Leaderboard = () => {
     return(
         <div>
-            <p> This is home page</p>
+            <p> This is leader page</p>
         </div>
     )
 }

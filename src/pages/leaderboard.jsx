@@ -1,7 +1,9 @@
+import React, {useState} from 'react'
 export const Leaderboard = () => {
     return(
         <div>
-            <p> This is leader page</p>
+            <h1> This is leader page</h1>
+            
         </div>
     )
 }

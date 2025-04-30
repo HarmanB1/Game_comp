@@ -1,0 +1,45 @@
+.battle_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1px 15px;
+    margin-top: 4rem;
+    width: 100%;
+    height: 80vh;
+    margin-top: 30px;
+
+}
+.title{
+    align-items: center;
+}
+
+.game1, .game2{
+    flex: 1;
+    display: flex;
+    margin: 1115 px;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+    
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgba(49, 49, 49, 0.235);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.game1:hover, .game2:hover{
+  transform: scale(1.05);
+  background-color: beige;
+  box-shadow: 0 4px 12px rgba(105, 86, 86, 0.8);
+}
+
+.plus{
+    
+    font-size: 10rem;
+    font-weight: bold;
+    background-color: rgba(49, 49, 49, 0);
+}
